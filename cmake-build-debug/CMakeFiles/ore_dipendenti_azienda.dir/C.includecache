@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pietro/Documents/GITHUB/c/ore_dipendenti_azienda/funzioni.h
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+
+/Users/pietro/Documents/GITHUB/c/ore_dipendenti_azienda/orario.c
+funzioni.h
+/Users/pietro/Documents/GITHUB/c/ore_dipendenti_azienda/funzioni.h
+
